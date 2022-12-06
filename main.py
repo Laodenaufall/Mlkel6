@@ -8,7 +8,7 @@ st.write("""
     # Program Prediksi Peluang Penerimaan Program S2
 """)
 
-st.image('./image.jpg')
+st.image('./image.png')
 
 st.write( """
     ## Keterangan Data Yang Digunakan
