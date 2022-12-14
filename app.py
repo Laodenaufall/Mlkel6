@@ -12,7 +12,7 @@ from sklearn.model_selection import train_test_split
 
 html_temp = """
 		<div style="background-color:#000080;padding:10px;border-radius:10px">
-		<h1 style="color:white;text-align:center;">Program Prediksi Penerimaan Beasiswa S2 </h1>
+		<h1 style="color:white;text-align:center;">Program Prediksi Peluang Penerimaan Beasiswa S2 </h1>
 		<h2 style="color:white;text-align:center">Kelompok 2<h2>
 
 		</div>
