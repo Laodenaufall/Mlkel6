@@ -72,12 +72,12 @@ def run_ml_app():
 
 
     form = st.form(key='my-form')
-    inputGRE = form.number_input("Masukan GRE Score: ", 0)
-    inputTOEFL = form.number_input("Masukan TOEFL Score: ", 0)
-    inputUnivRating = form.number_input("Masukan Rating Univ: ", 0)
+    inputGRE = form.number_input("Masukan GRE Score: (0 - 340) ", 0)
+    inputTOEFL = form.number_input("Masukan TOEFL Score: (0 - 120)", 0)
+    inputUnivRating = form.number_input("Masukan Rating Univ: (0 - 5)", 0)
     inputSOP = form.number_input("Masukan Kekuatan SOP: ", 0)
-    inputLOR = form.number_input("Masukan Jumlah Letter of Recommendation: ", 0)
-    inputCGPA = form.number_input("Masukan CGPA: ", 0)
+    inputLOR = form.number_input("Masukan Jumlah Letter of Recommendation: (0 - 5)", 0)
+    inputCGPA = form.number_input("Masukan CGPA: (0 - 10)", 0)
     inputResearch = form.number_input("Pengalaman Research, 1 Jika Pernah Riset, 0 Jika Tidak", 0)
     submit = form.form_submit_button('Submit')
 
