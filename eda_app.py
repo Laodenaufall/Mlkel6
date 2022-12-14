@@ -13,7 +13,7 @@ def run_eda_app():
 	submenu = st.sidebar.selectbox("Submenu", ["Descriptive", "Plots"])
 	myData = pd.read_csv("data.csv")
 	myData_cleaned = pd.read_csv("data.csv")
-	
+	dataFrameSerialization = "legacy"
 
 	if submenu == "Descriptive":
 		st.dataframe(myData)
