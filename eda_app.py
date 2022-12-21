@@ -28,8 +28,8 @@ def run_eda_app():
 		with st.expander("GRE Score Distribution"):
 			st.dataframe(myData["GRE Score"].value_counts())
 
-		with st.expander("Chance of Admit Distribution"):
-			st.dataframe(myData["Chance of Admit"].value_counts())
+		#with st.expander("Chance of Admit Distribution"):
+		#	st.dataframe(myData["Chance of Admit"].value_counts())
 
 	elif submenu == "Plots":
 		st.subheader("Visualization Plots")
