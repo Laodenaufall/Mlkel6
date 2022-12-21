@@ -29,7 +29,6 @@ def run_eda_app():
 
 		with st.expander("Chance of Admit Distribution"):
 			st.dataframe(myData["Chance of Admit"].value_counts())
-		return st.dataframe.astype(str)
 	elif submenu == "Plots":
 		st.subheader("Visualization Plots")
 
@@ -58,3 +57,4 @@ def run_eda_app():
 		with st.expander("Outlier Detection"):
 			p3 = px.box(myData, x = "University Rating")
 			st.plotly_chart(p3)
+		return st.dataframe.astype(str)
