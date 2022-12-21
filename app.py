@@ -40,6 +40,5 @@ def main():
 		run_eda_app()
 	elif choice == "ML":
 		run_ml_app()
-	else:
 					
 main()
