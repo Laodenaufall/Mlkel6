@@ -1,6 +1,4 @@
 import streamlit as st 
-import pandas as pd
-import numpy as np
 import streamlit.components.v1 as stc
 from PIL import Image
 
