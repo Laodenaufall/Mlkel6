@@ -30,7 +30,7 @@ def run_eda_app():
 			st.dataframe(myData["GRE Score"].value_counts())
 
 		with st.expander("Chance of Admit Distribution"):
-			st.dataframe(myData["Chance of Admit"].value_counts())
+			st.dataframe(myData["Chance of Admit "].value_counts())
 
 	elif submenu == "Plots":
 		st.subheader("Visualization Plots")
