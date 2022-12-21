@@ -41,22 +41,5 @@ def main():
 	elif choice == "ML":
 		run_ml_app()
 	else:
-		st.subheader("About")
-		
-		st.write("### Adith Sreeram - The Data Guy")
-		img = Image.open("asr.jpeg")
-		st.image(img)
-		st.text("""
-		My ambitious dream to become a data scientist is soon to be a reality. Spending hours 
-		looking for the most appropriate content for you never makes me tired, which will 
-		obviously be preceded by long and passionate reading, writing, and prosperity in 
-		sharing my wisdom brought me here. 
-		As I am pursuing computer engineering, I build computer applications and muscles too.
-		I strive to use my energy in data science to make significant contributions to society by 
-		tackling complex problems through research and cutting edge technologies.
-		Creative problem solver with strong interpersonal skills. Dreaming of taking the world 
-		towards a safer and healthier future.
-		I love meeting people working on exciting things. If there is any suitable role for me, 
-		don't hesitate. I am open to communication on all channels. Let's discuss.
-""")			
+					
 main()
