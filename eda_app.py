@@ -21,7 +21,7 @@ def run_eda_app():
 		st.dataframe(myData)
 
 		with st.expander("Data Types"):
-			st.dataframe(myData.dtypes)
+			st.dataframe(myData)
 			
 		with st.expander("Summary"):
 			st.dataframe(myData.describe()[["GRE Score","TOEFL Score","University Rating","LOR","CGPA","Research","Chance of Admit"]])
