@@ -50,7 +50,7 @@ def run_eda_app():
 
 		with st.expander("Plots based on Chance of Admit Distribution"):
 			fig = plt.figure()
-			sns.countplot(myData['Chance of Admit'])
+			sns.countplot(myData['Chance of Admit '])
 			st.pyplot(fig)
 
 			coa_myData = myData["Chance of Admit"].value_counts()
