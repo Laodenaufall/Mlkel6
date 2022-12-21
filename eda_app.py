@@ -58,4 +58,3 @@ def run_eda_app():
 		with st.expander("Outlier Detection"):
 			p3 = px.box(myData, x = "University Rating")
 			st.plotly_chart(p3)
-		return st.dataframe.astype(str)
