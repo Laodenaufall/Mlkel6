@@ -24,7 +24,7 @@ def run_eda_app():
 			st.dataframe(myData)
 			
 		with st.expander("Summary"):
-			st.dataframe(myData.describe()[["GRE Score","TOEFL Score","University Rating","LOR","CGPA","Research","Chance of Admit"]])
+			st.dataframe(myData.describe()[["GRE Score","TOEFL Score","University Rating","LOR ","CGPA","Research","Chance of Admit "]])
 
 		with st.expander("GRE Score Distribution"):
 			st.dataframe(myData["GRE Score"].value_counts())
