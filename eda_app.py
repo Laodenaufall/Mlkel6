@@ -13,7 +13,9 @@ def run_eda_app():
 	myData = pd.read_csv("data.csv")
 	myData_cleaned = pd.read_csv("data.csv")
 	dataFrameSerialization = "legacy"
-
+	
+	df = pd.DataFrame(myData)
+	df.astype(str)	
 
 	if submenu == "Descriptive":
 		st.dataframe(myData)
