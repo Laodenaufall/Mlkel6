@@ -17,7 +17,6 @@ def run_eda_app():
 
 	if submenu == "Descriptive":
 		st.dataframe(myData)
-		st.dataframe.astype(str)
 
 		with st.expander("Data Types"):
 			st.dataframe(myData.dtypes)
