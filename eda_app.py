@@ -53,9 +53,9 @@ def run_eda_app():
 			sns.countplot(myData['Chance of Admit '])
 			st.pyplot(fig)
 
-			coa_myData = myData["Chance of Admit"].value_counts()
+			coa_myData = myData["Chance of Admit "].value_counts()
 			coa_myData = coa_myData.reset_index()
-			coa_myData.columns = ["Chance of Admit", "Count"]
+			coa_myData.columns = ["Chance of Admit ", "Count"]
 			#st.dataframe(Chance of Admit_myData)
 		with st.expander("Outlier Detection"):
 			p3 = px.box(myData, x = "University Rating")
